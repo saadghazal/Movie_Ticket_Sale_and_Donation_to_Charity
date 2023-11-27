@@ -25,7 +25,7 @@ public class Main {
         System.out.println();
         System.out.print("Enter Percentage Of Charity Donations: ");
 
-        double percentageOfCharityDonation = console.nextDouble(); // get the percentage of total sold tickets amount for charity dnations
+        double percentageOfCharityDonation = console.nextDouble(); // get the percentage of total sold tickets amount for charity donations
 
 
 
