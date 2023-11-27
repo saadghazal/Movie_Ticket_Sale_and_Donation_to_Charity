@@ -27,6 +27,19 @@ public class Main {
 
         double percentageOfCharityDonation = console.nextDouble(); // get the percentage of total sold tickets amount for charity donations
 
+        int totalNumberOfTickets = numberOfAdultTicketsSold + numberOfChildTicketsSold; // total number of sold tickets
+
+        double salesTotal = childTicketPrice * numberOfChildTicketsSold + adultTicketPrice * numberOfAdultTicketsSold; // total of sales
+
+        double donationAmount = salesTotal*percentageOfCharityDonation;// total that goes for donations
+        double totalNetSale = salesTotal - donationAmount; // total net sale
+
+
+
+
+
+
+
 
 
 
